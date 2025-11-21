@@ -26,3 +26,73 @@ body {
   color: #000;
   font-weight: bold;
 }
+.container{
+  display:flex;
+  padding: 30px;
+  gap: 30px;
+}
+.img-container{
+ margin-right: 30px;
+}
+.img-container,img{
+  margin: 3px 5px  5px 5px;
+  border-radius: 8px;
+  
+}
+.img-list{
+  display: flex;
+}
+/* title  */
+.title{
+  font-size: x-large;
+  font-weight: 600;
+}
+/* rate */
+.rate{
+  margin: 2px;
+}
+.c-rate{
+  color: black;
+  font-size: x-large;
+}
+.b-rate{
+  font-size: 12px;
+  color: gray;
+}
+/* offer */
+
+.offer{
+  color:rgba(255, 47, 0, 0.651);
+  background-color:rgba(251, 244, 207, 0.768);
+  width:70px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 300;
+  border: 1px solid rgba(255, 140, 0, 0.442);
+}
+/* start and view more */
+
+.star-and-view{
+  margin-top:5px
+}
+.view-more{
+  color:rgba(23, 23, 194, 0.867);
+}
+/* product discription */
+
+.product-discription{
+  margin-top:10px
+ 
+}
+
+/*color optoins */
+.color-container{
+  margin-top:30px
+}
+.featur-header{
+  font-size: large;
+  font-weight:bold;
+}
+.colo{
+ 
+}
