@@ -1,0 +1,23 @@
+Day 1 (1.5 hr)
+
+HTML structure: <!DOCTYPE>, <html>, <head>, <body>
+
+Basic tags: headings, paragraphs, links, images
+
+Hands-on: Create a simple page with headings, paragraphs, and images
+
+
+I go thrugh the bacis html tag like, 
+Image, source,quote,small quote, dlt,sub, sup,blockquote,paragraphs,heading,link,
+background-image,image object click with help of cordinate useing method map, 
+
+
+
+// javascript //
+Day 1 (1.5 hr)
+
+JS basics: var, let, const
+
+Data types: string, number, boolean, null, undefined, symbol
+
+Hands-on: declare variables, check types

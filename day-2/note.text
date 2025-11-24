@@ -1,0 +1,59 @@
+// html and CSS
+
+Day 2 (1.5 hr)
+
+Lists: ordered <ol>, unordered <ul>, definition <dl>
+  <ol>
+  <li>
+  
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+  </ol>
+
+// UL//
+<ul>
+  <li>
+  
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+  </ul>
+
+// DL 
+ <dl>
+ <dt> subjects</dt>
+ <dd> math, science, physics </dd>
+ </dl>
+
+Tables: <table>, <tr>, <td>, <th>
+
+Hands-on: Build a simple table of students or products
+
+
+
+
+// JAVASCRIPT 
+
+Day 2 (1.5 hr)
+
+Operators: arithmetic, comparison, logical, ternary
+
+1. Arithetical operations =>
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Remainder)
+++	Increment
+--	Decrement
+
+Type coercion & truthy/falsy values
+
+Hands-on: small exercises on coercion & ternary operators
