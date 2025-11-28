@@ -1,227 +1,508 @@
-Week 1: JavaScript Fundamentals Refresh
+Day 1 — JS Basics + Execution Model (1.5 hr)
 
-Day 1 (1.5 hr)
+Topics:
 
-JS basics: var, let, const
+Variables (let/const)
 
-Data types: string, number, boolean, null, undefined, symbol
+Primitive vs reference types
 
-Hands-on: declare variables, check types
+Pass-by-value vs pass-by-reference
 
-Day 2 (1.5 hr)
+Expressions vs statements
 
-Operators: arithmetic, comparison, logical, ternary
+Execution context
 
-Type coercion & truthy/falsy values
+Call stack
 
-Hands-on: small exercises on coercion & ternary operators
+Task: Visualize the call stack for nested functions.
 
-Day 3 (1.5 hr)
+Interview Questions:
 
-Control flow: if-else, switch
+Explain var vs let vs const.
 
-Loops: for, while, for...of, for...in
+What is an execution context?
 
-Hands-on: loop over arrays & objects
+Day 2 — Scope, Hoisting, TDZ (1.5 hr)
 
-Day 4 (1.5 hr)
+Topics:
 
-Functions: declaration, expression, arrow functions
+Function scope vs block scope
 
-Default parameters, rest & spread operator
+Hoisting rules
 
-Hands-on: convert function declarations to arrow functions
+Temporal Dead Zone
 
-Day 5 (1.5 hr)
+Shadowing
 
-Scope & Hoisting: function, block, global
+Task: Predict outputs of tricky hoisting examples.
 
-var vs let vs const
+Interview Questions:
 
-Hands-on: exercises with scope & closures
+Why does let/const have TDZ?
 
-Day 6 (1.5 hr)
+Day 3 — Functions & Closures (1.5 hr)
 
-Arrays: push, pop, shift, unshift, slice, splice
+Topics:
 
-Iteration: forEach, map, filter, reduce
+Function declarations vs expressions
 
-Hands-on: array transformation exercises
+Arrow functions
 
-Day 7 (2 hr)
+Closures
 
-Objects: create objects, access properties, object destructuring
+Lexical environment
 
-Mini project: simple shopping cart object operations
+Task: Create a closure-based counter.
 
-Week 2: ES6+ Features & Intermediate JS
+Interview Questions:
 
-Day 8 (1.5 hr)
+What is a closure and real use case?
 
-Template literals, string methods (includes, startsWith, endsWith)
+Day 4 — Objects & Prototypes (1.5 hr)
 
-Hands-on: build dynamic strings for a user profile
+Topics:
 
-Day 9 (1.5 hr)
+Object creation patterns
 
-Destructuring (arrays & objects)
+Prototypal inheritance
 
-Spread & rest operators deep dive
+proto vs prototype
 
-Hands-on: merge arrays/objects
+Why JS is prototype-based
 
-Day 10 (1.5 hr)
+Task: Create custom prototype method.
 
-let & const nuances
+Interview Questions:
 
-Block scope vs function scope exercises
+How does prototype chain work?
 
-Day 11 (1.5 hr)
+Day 5 — This Keyword (1.5 hr)
 
-Object & array methods: map, filter, reduce, find, some, every
+Topics:
 
-Hands-on: practice 5–6 array/object challenges
+this in global/function/strict mode
 
-Day 12 (1.5 hr)
+this in arrow functions
 
-Classes & constructor functions
+call, apply, bind
 
-this keyword in different contexts
+Task: Implement custom bind().
 
-Hands-on: create a class with methods and inheritance
+Interview Questions:
 
-Day 13 (1.5 hr)
+Why arrow functions cannot bind "this"?
 
-Modules: import/export
+Day 6 — ES6+ Features (1.5 hr)
 
-Hands-on: split mini-project into multiple modules
+Topics:
 
-Day 14 (2 hr)
+Spread & rest
 
-Mini project: User management app (array of objects)
+Destructuring
 
-Use array methods, classes, destructuring
+Template literals
 
-Week 3: DOM, Events & Browser APIs
+Default parameters
 
-Day 15 (1.5 hr)
+Enhanced object literals
 
-DOM basics: document.querySelector, getElementById, childNodes
+Task: Refactor old code to ES6.
 
-Hands-on: select elements and modify content
+Day 7 — Deep Dive: Arrays & Strings (1.5 hr)
 
-Day 16 (1.5 hr)
+Topics:
 
-DOM manipulation: create, append, remove elements
+map, filter, reduce
 
-Hands-on: build dynamic todo list (DOM only)
+find, some, every
 
-Day 17 (1.5 hr)
+slice vs splice
 
-Events: click, input, change, submit
+immutability
 
-Event delegation
+Task: Recreate map() manually.
 
-Hands-on: form validation using event listeners
+📍 WEEK 2 — Asynchronous JavaScript
+Day 8 — Async Foundations (1.5 hr)
 
-Day 18 (1.5 hr)
+Topics:
 
-Event propagation: bubbling & capturing
+Sync vs async
 
-Hands-on: stop propagation exercises
+Single-threaded JS
 
-Day 19 (1.5 hr)
+Event loop (microtasks/macrotasks)
 
-Browser APIs: localStorage, sessionStorage, cookies
+Web APIs
 
-Hands-on: store & retrieve todo list items
+Task: Visualize event loop using async logs.
 
-Day 20 (1.5 hr)
+Interview Questions:
 
-BOM basics: window, navigator, location, history
+Explain the event loop.
 
-Hands-on: show current URL, navigate programmatically
+Day 9 — Promises Deep Dive (1.5 hr)
 
-Day 21 (2 hr)
+Topics:
 
-Mini project: Todo app with DOM + localStorage + events
+Promise states
 
-Week 4: Asynchronous JS, Advanced Topics & Interview Prep
+then/catch/finally
 
-Day 22 (1.5 hr)
+Promise chaining
 
-Callbacks, callback hell
+Error propagation
 
-Hands-on: simple async callback exercise
+Task: Build a promise-based function.
 
-Day 23 (1.5 hr)
+Day 10 — async/await (1.5 hr)
 
-Promises: then, catch, finally
+Topics:
 
-Hands-on: simulate async API call using promises
+Async/await rewriting
 
-Day 24 (1.5 hr)
+Parallel vs sequential execution
 
-async/await
+try/catch patterns
 
-Error handling with try/catch
+Task: Convert promises → async/await.
 
-Hands-on: fetch data from public API
+Day 11 — Promise APIs (1.5 hr)
 
-Day 25 (1.5 hr)
+Topics:
 
-Fetch API / Axios overview
+Promise.all
 
-Hands-on: call a public API and display results in DOM
+Promise.allSettled
 
-Day 26 (1.5 hr)
+Promise.race
 
-Closures & IIFE
+Promise.any
 
-Hands-on: counter function using closure
+Task: Implement retry logic using Promise.race.
 
-Day 27 (1.5 hr)
+Day 12 — Event Loop Advanced (1.5 hr)
 
-JS memory management basics
+Topics:
 
-Event loop & call stack explanation
+Microtask queue
 
-Hands-on: microtask vs macrotask examples
+MutationObserver
 
-Day 28 (1.5 hr)
+process.nextTick
 
-Advanced array/object tricks: deep clone, merge, object.keys/values/entries
+Queue order
 
-Hands-on: solve 3–4 common interview problems
+Task: Predict tricky event loop outputs.
 
-Day 29 (1.5 hr)
+Day 13 — AJAX + Fetch + Axios (1.5 hr)
 
-Practice coding challenges:
+Topics:
 
-Reverse string/array
+fetch basics
 
-Remove duplicates
+JSON parsing
 
-FizzBuzz
+Error handling
 
-Count character occurrences
+CORS
 
-Day 30 (2 hr)
+AbortController
 
-Full revision:
+Task: Make API call + cancellation.
 
-Core JS concepts, ES6+
+Day 14 — Build Async Mini-Project (2 hr)
 
-DOM & events
+Topics:
 
-Async & promises
+Fetch + async/await
 
-Solve 5–6 small JS interview questions
+Error handling
 
-✅ Tips:
+Loading states
 
-Practice LeetCode easy/medium JS questions during this 30-day plan
+Task: Build “GitHub User Search”.
 
-Use console.log extensively to debug & understand concepts
+📍 WEEK 3 — Browser, DOM, OOP & Patterns
+Day 15 — DOM Manipulation (1.5 hr)
 
-Build small DOM projects daily to apply JS in real scenarios
+Topics:
+
+Selecting & modifying elements
+
+Events
+
+Bubbling & capturing
+
+Task: Create a dropdown menu.
+
+Day 16 — Event Propagation + Delegation (1.5 hr)
+
+Topics:
+
+Event phases
+
+stopPropagation
+
+Delegation for dynamic UIs
+
+Task: Add delegated handlers to a list.
+
+Day 17 — Timers & Debounce/Throttle (1.5 hr)
+
+Topics:
+
+setTimeout, setInterval
+
+Debounce vs throttle
+
+Real scenarios (search)
+
+Task: Implement debounce manually.
+
+Day 18 — OOP in JavaScript (1.5 hr)
+
+Topics:
+
+Constructor functions
+
+Prototypes
+
+Classes & inheritance
+
+super(), extends
+
+Task: Implement class-based model.
+
+Day 19 — Modules & Bundling (1.5 hr)
+
+Topics:
+
+ES modules
+
+import/export
+
+Bundlers (Vite, Webpack basics)
+
+Task: Convert app to ES modules.
+
+Day 20 — Design Patterns (1.5 hr)
+
+Topics:
+
+Factory
+
+Singleton
+
+Observer
+
+Module pattern
+
+Strategy
+
+Task: Build pub/sub system.
+
+Day 21 — Functional Programming (1.5 hr)
+
+Topics:
+
+Pure functions
+
+Immutability
+
+Currying
+
+Composition
+
+Task: Implement curry().
+
+📍 WEEK 4 — Advanced JavaScript & Performance
+Day 22 — Memory Management (1.5 hr)
+
+Topics:
+
+Stack vs heap
+
+Garbage collection
+
+Memory leaks (4 types)
+
+Task: Fix memory-leaking code.
+
+Day 23 — JS Engine Internals (1.5 hr)
+
+Topics:
+
+V8 internals
+
+Ignition & Turbofan
+
+JIT compilation
+
+Task: Optimize code for V8.
+
+Day 24 — Performance Optimization (1.5 hr)
+
+Topics:
+
+Debounce/throttle
+
+Web Workers
+
+Minimizing reflows
+
+Async patterns
+
+Task: Worker-based heavy computation.
+
+Day 25 — Error Handling & Debugging (1.5 hr)
+
+Topics:
+
+try/catch
+
+window.onerror
+
+Debugging tools
+
+Stack traces
+
+Task: Debug buggy code.
+
+Day 26 — Security Basics (1.5 hr)
+
+Topics:
+
+XSS
+
+CSRF
+
+CORS
+
+Secure cookies
+
+Task: Identify vulnerabilities in sample code.
+
+Day 27 — TypeScript Basics (2 hr)
+
+Topics:
+
+Types
+
+Interfaces
+
+Generics
+
+Type narrowing
+
+Task: Convert JS utilities to TS.
+
+Day 28 — TypeScript Advanced (1.5 hr)
+
+Topics:
+
+Utility types
+
+Type inference
+
+Union & intersection types
+
+Task: Create typesafe API handler.
+
+📍 WEEK 5 — System Design + Interview Mastery
+Day 29 — JavaScript System Design (1.5 hr)
+
+Topics:
+
+Large scale code structure
+
+Module boundaries
+
+Event-driven architecture
+
+Caching
+
+API layer patterns
+
+Task: Design architecture for a dashboard app.
+
+Day 30 — DSA for JS Interviews (1.5 hr)
+
+Topics:
+
+Arrays
+
+Objects
+
+Hashmaps
+
+Sets
+
+Sorting
+
+Task: Solve 5 array problems.
+
+Day 31 — DSA: Strings + Sliding Window (1.5 hr)
+
+Task: 3 sliding window problems.
+
+Day 32 — DSA: Recursion + Backtracking (1.5 hr)
+
+Task: Solve 2 recursion questions.
+
+Day 33 — JS Coding Challenges (1.5 hr)
+
+Challenges:
+
+deepClone
+
+customPromise
+
+memoization
+
+curry
+
+debounce/throttle
+
+Day 34 — Mock JavaScript Interview (1.5 hr)
+
+Full round:
+
+Core JS
+
+Async
+
+DOM
+
+System design
+
+Coding
+
+Day 35 — Final Revision (2 hr)
+
+Review all notes
+
+Review tricky concepts
+
+Review coding challenges
+
+Review theory questions
+
+🎯 FINAL RESULT
+
+Following this 35-day JavaScript plan, you will master:
+
+✔ Core JS
+✔ ES6+
+✔ Async JS
+✔ Event Loop
+✔ DOM + Browser APIs
+✔ OOP + Patterns
+✔ Performance + Memory
+✔ Security
+✔ TypeScript
+✔ System Design
+✔ DSA
+✔ Interview Coding
+
+This is complete mastery and pairs perfectly with your React 35-day roadmap.

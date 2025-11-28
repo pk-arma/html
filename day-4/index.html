@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Day-4</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body style="background-color: white;">
+
+  <div>
+    <button commandfor="mydialog" command="show-modal">Show Form</button>
+    <dialog id="mydialog">
+      <button commandfor="mydialog" command="close">Close</button>
+      <form onsubmit="onsumbit">
+        <div>
+          First Name:<input name="fistName"></input>
+        </div>
+        Last Name:<input name="lastName"></input>
+        <div>
+          Contect No :<input name="contect" type="number" />
+        </div>
+        Email Id:<input name="email" type="email" />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </dialog>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

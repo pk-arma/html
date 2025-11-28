@@ -1,0 +1,555 @@
+Day 1 — JS Basics + Execution Model
+
+Interview Questions:
+
+What are primitive vs non-primitive types?
+
+Explain var vs let vs const.
+
+What is an execution context?
+
+Cross Questions:
+
+Why is const not fully immutable?
+
+What actually happens during the “creation phase”?
+
+How many execution contexts can exist at once?
+
+Day 2 — Scope, Hoisting & TDZ
+
+Interview Questions:
+
+What is hoisting?
+
+What is temporal dead zone?
+
+Difference between block & function scope?
+
+Cross Questions:
+
+Why does let/const have TDZ?
+
+Does function hoisting behave differently than variable hoisting?
+
+Day 3 — Functions & Closures
+
+Interview Questions:
+
+What is a closure?
+
+What is lexical scoping?
+
+Arrow functions vs regular functions?
+
+Cross Questions:
+
+How do closures cause memory leaks?
+
+Can you create a real-world closure use case?
+
+Why arrow functions cannot be constructors?
+
+Day 4 — Objects & Prototypes
+
+Interview Questions:
+
+Explain prototypal inheritance.
+
+Difference between __proto__ and prototype.
+
+What is a constructor function?
+
+Cross Questions:
+
+How does the prototype chain get resolved?
+
+How does new keyword internally work?
+
+What is Object.create used for?
+
+Day 5 — this Keyword
+
+Interview Questions:
+
+How does this behave in arrow functions?
+
+What is call/apply/bind?
+
+What does this refer to in classes?
+
+Cross Questions:
+
+Why arrow functions cannot bind this?
+
+What is the difference between lexical & dynamic scoping?
+
+How does this behave in event listeners?
+
+Day 6 — ES6+ Features
+
+Interview Questions:
+
+Difference between spread & rest.
+
+What is destructuring?
+
+Why are template literals useful?
+
+Cross Questions:
+
+How does destructuring work under the hood?
+
+Why does spreading arrays cost performance?
+
+Day 7 — Arrays & Strings
+
+Interview Questions:
+
+Difference between map & forEach?
+
+How does reduce work?
+
+slice vs splice?
+
+Cross Questions:
+
+Which array methods mutate data?
+
+Why prefer immutable patterns?
+
+📍 WEEK 2 — Async JavaScript
+Day 8 — Event Loop Basics
+
+Interview Questions:
+
+Explain the event loop.
+
+What is call stack vs callback queue?
+
+What are microtasks?
+
+Cross Questions:
+
+Why are promises microtasks?
+
+In what order do event loop tasks execute?
+
+Day 9 — Promises
+
+Interview Questions:
+
+What are promise states?
+
+What is promise chaining?
+
+Promise error handling?
+
+Cross Questions:
+
+Why do promises prevent callback hell?
+
+What happens if you return a promise inside then?
+
+Day 10 — async/await
+
+Interview Questions:
+
+How does async/await work?
+
+Why must async functions return a promise?
+
+How do you handle errors in async/await?
+
+Cross Questions:
+
+Difference between parallel & sequential awaits?
+
+Why is await inside loops bad?
+
+Day 11 — Promise APIs
+
+Interview Questions:
+
+Difference between Promise.all vs Promise.allSettled?
+
+What is Promise.race?
+
+Why does Promise.any exist?
+
+Cross Questions:
+
+What happens if one promise rejects in Promise.all?
+
+How do you implement Promise.all manually?
+
+Day 12 — Event Loop Advanced
+
+Interview Questions:
+
+What is the microtask queue?
+
+What is MutationObserver?
+
+How does queue order work?
+
+Cross Questions:
+
+Why microtasks run before macrotasks?
+
+How do DOM callbacks enter the event loop?
+
+Day 13 — AJAX / Fetch / Axios
+
+Interview Questions:
+
+fetch vs axios?
+
+What is CORS?
+
+How to cancel a fetch call?
+
+Cross Questions:
+
+What is a preflight request?
+
+What triggers CORS errors?
+
+Day 14 — Async Project
+
+Interview Questions:
+
+What happens if API fails?
+
+How do you cache API calls?
+
+Cross Questions:
+
+How to retry API calls?
+
+How to debounce API requests?
+
+📍 WEEK 3 — Browser, DOM, OOP, Patterns
+Day 15 — DOM Manipulation
+
+Interview Questions:
+
+How does DOM work?
+
+Event bubbling vs capturing?
+
+innerHTML vs textContent?
+
+Cross Questions:
+
+Why is innerHTML unsafe?
+
+Which operations cause reflow?
+
+Day 16 — Event Delegation
+
+Interview Questions:
+
+What is event delegation?
+
+Advantages of delegation?
+
+What is stopPropagation?
+
+Cross Questions:
+
+Why does delegation improve performance?
+
+Can delegation work for blur/focus?
+
+Day 17 — Debounce/Throttle
+
+Interview Questions:
+
+What is debouncing?
+
+What is throttling?
+
+Real use cases?
+
+Cross Questions:
+
+Why debounce search bar?
+
+How would you implement throttle manually?
+
+Day 18 — OOP in JavaScript
+
+Interview Questions:
+
+What is class in JS?
+
+Difference between constructor and class?
+
+What is super keyword?
+
+Cross Questions:
+
+Why is JS not classical OOP?
+
+What is the difference between inheritance & composition?
+
+Day 19 — Modules
+
+Interview Questions:
+
+Difference between CommonJS and ES Modules?
+
+Named vs default exports?
+
+Why do modules solve global pollution?
+
+Cross Questions:
+
+How do bundlers treat modules?
+
+Can you tree-shake default exports?
+
+Day 20 — Design Patterns
+
+Interview Questions:
+
+Explain Observer pattern.
+
+What is Singleton?
+
+Strategy pattern use case?
+
+Cross Questions:
+
+Why do frameworks use the observer pattern?
+
+How to ensure a true singleton in JS?
+
+Day 21 — Functional Programming
+
+Interview Questions:
+
+What is a pure function?
+
+What is currying?
+
+What is referential transparency?
+
+Cross Questions:
+
+Why functional programming avoids shared state?
+
+How to memoize functions?
+
+📍 WEEK 4 — Advanced JavaScript
+Day 22 — Memory Management
+
+Interview Questions:
+
+What is garbage collection?
+
+What causes memory leaks?
+
+Stack vs heap memory?
+
+Cross Questions:
+
+Why closures can cause leaks?
+
+How to detect memory leaks?
+
+Day 23 — JS Engine Internals
+
+Interview Questions:
+
+What is JIT compilation?
+
+How does V8 optimize code?
+
+What is inline caching?
+
+Cross Questions:
+
+Why does V8 de-optimize code?
+
+What slows down the JS engine?
+
+Day 24 — Performance Optimization
+
+Interview Questions:
+
+What causes reflow/repaint?
+
+Why is debounce performance friendly?
+
+What are Web Workers?
+
+Cross Questions:
+
+How to optimize a heavy loop?
+
+Why is localStorage slow?
+
+Day 25 — Error Handling
+
+Interview Questions:
+
+try/catch behavior?
+
+Why async errors behave differently?
+
+How to handle global errors?
+
+Cross Questions:
+
+Why doesn’t try/catch catch async errors?
+
+What is window.onerror?
+
+Day 26 — Security
+
+Interview Questions:
+
+What is XSS?
+
+What is CSRF?
+
+What is CORS?
+
+Cross Questions:
+
+How to prevent DOM-based XSS?
+
+Why OPTIONS request happens?
+
+Day 27 — TypeScript Basics
+
+Interview Questions:
+
+Type vs interface?
+
+What are generics?
+
+What is type inference?
+
+Cross Questions:
+
+Why is any dangerous?
+
+What is structural typing?
+
+Day 28 — TypeScript Advanced
+
+Interview Questions:
+
+Utility types (Partial, Pick)?
+
+Union vs intersection?
+
+How to type React components?
+
+Cross Questions:
+
+Why use discriminated unions?
+
+What is never type?
+
+📍 WEEK 5 — JS System Design + Coding + Mock Interviews
+Day 29 — JS System Design
+
+Interview Questions:
+
+How do you structure a large JS codebase?
+
+How do you design a pub/sub system?
+
+How do you optimize bundle size?
+
+Cross Questions:
+
+Why prefer modules over namespaces?
+
+How to design scalable API layer?
+
+Day 30 — DSA (Arrays + Objects)
+
+Interview Questions:
+
+Why are arrays zero indexed?
+
+How does JS handle large arrays?
+
+Cross Questions:
+
+Difference between map/object?
+
+Why is delete object key slow?
+
+Day 31 — DSA (Strings + Sliding Window)
+
+Interview Questions:
+
+Why strings are immutable?
+
+Common sliding window problems?
+
+Cross Questions:
+
+What is time complexity of slicing strings?
+
+Day 32 — Recursion + Backtracking
+
+Interview Questions:
+
+What is recursion?
+
+Why recursion causes stack overflow?
+
+Cross Questions:
+
+How tail-call optimization works?
+
+Day 33 — JavaScript Coding Challenges
+
+Interview Questions:
+
+Implement deepClone.
+
+Implement debounce.
+
+Implement customPromise.
+
+Cross Questions:
+
+How to deep clone functions?
+
+Why JSON.parse fails?
+
+Day 34 — Mock JavaScript Interview
+
+Questions:
+
+10 core JS questions
+
+5 async questions
+
+5 DOM questions
+
+Cross Questions:
+
+Follow-up on each of the above
+
+Optimization challenges
+
+Day 35 — Final Revision
+
+Questions:
+
+Review top 50 JS questions
+
+Review top 20 async questions
+
+Cross Questions:
+
+Simulated interviewer-style follow-ups
