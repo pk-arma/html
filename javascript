@@ -345,7 +345,9 @@ Day 24 — Performance Optimization (1.5 hr)
 
 Topics:
 
-Debounce/throttle
+Debounce :- Delays a call functions unit after a specified time has passed since the last event.
+
+throttle :-  
 
 Web Workers
 

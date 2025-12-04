@@ -1,0 +1,30 @@
+Day 22 — Memory Management (1.5 hr)
+
+Topics:
+
+Stack vs heap
+
+Garbage collection
+:- 
+Memory leaks (4 types)
+
+Task: Fix memory-leaking code.
+
+
+
+
+Day 22 — Memory Management
+
+Interview Questions:
+
+What is garbage collection?
+
+What causes memory leaks?
+
+Stack vs heap memory?
+
+Cross Questions:
+
+Why closures can cause leaks?
+
+How to detect memory leaks?
