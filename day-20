@@ -1,0 +1,31 @@
+Day 20 — Design Patterns (1.5 hr)
+
+Topics:
+
+Factory
+
+Singleton
+
+Observer
+
+Module pattern
+
+Strategy
+
+Task: Build pub/sub system.
+
+Day 20 — Design Patterns
+
+Interview Questions:
+
+Explain Observer pattern.
+
+What is Singleton?
+
+Strategy pattern use case?
+
+Cross Questions:
+
+Why do frameworks use the observer pattern?
+
+How to ensure a true singleton in JS?

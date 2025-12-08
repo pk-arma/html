@@ -1,0 +1,25 @@
+Topics:
+
+ES modules
+:-
+import/export
+:-
+Bundlers (Vite, Webpack basics)
+:-
+Task: Convert app to ES modules.
+
+
+
+Interview Questions:
+
+Difference between CommonJS and ES Modules?
+:- 
+Named vs default exports?
+
+Why do modules solve global pollution?
+
+Cross Questions:
+
+How do bundlers treat modules?
+
+Can you tree-shake default exports?

@@ -1,0 +1,39 @@
+Day 21 — Functional Programming (1.5 hr)
+
+Topics:
+
+Pure functions
+:- let me tell you about pure functions, where return output same as input does not perform any side effects.
+
+Immutability
+:-
+
+Currying
+:- currying is advance technique in functional programmering, where function tranceform into series of functions, each function take one argument.
+This transformation allows a function that is normally called with multiple arguments, such as f(a, b, c), to be called as f(a)(b)(c).
+
+```javascript
+
+
+```
+Composition
+:-
+
+
+Task: Implement curry().
+
+Day 21 — Functional Programming
+
+Interview Questions:
+
+What is a pure function?
+
+What is currying?
+
+What is referential transparency?
+
+Cross Questions:
+
+Why functional programming avoids shared state?
+
+How to memoize functions?
