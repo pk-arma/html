@@ -1,25 +1,27 @@
 Topics:
 
 ES modules
-:-
+:- ES modules is ecamascript modules which is introduce in ES 6 release, which increase moduler reusebility in javascript. 
+  it should use only top lavel not within functions. it has dynmic import feature which load on demand.
+
 import/export
-:-
+:- import/export aslo known as esmodules syntex use to write, we can acheive code spliting. with help import and export, import keyword use get function or component import in specific file if we any function or component name use with export keyword.
+
 Bundlers (Vite, Webpack basics)
-:-
+:- 
+
 Task: Convert app to ES modules.
-
-
 
 Interview Questions:
 
 Difference between CommonJS and ES Modules?
-:- 
+:-  
 Named vs default exports?
-
+:-
 Why do modules solve global pollution?
-
+:-
 Cross Questions:
-
+:-
 How do bundlers treat modules?
-
+:-
 Can you tree-shake default exports?

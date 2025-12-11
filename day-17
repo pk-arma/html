@@ -1,0 +1,26 @@
+What is debouncing?
+:- Debouncing is technique to add deley in javascript event, function and component excution.
+
+What is throttling?
+:- throttling is technique to fire event after a partucler time from last event hitted.
+
+Real use cases?
+:- debouncing best use case is, when we implement search in input each strok then we add deley.
+:- throttling best use case 
+
+Cross Questions:
+
+Why debounce search bar?
+
+How would you implement throttle manually?
+
+
+Topics:
+
+setTimeout, setInterval
+
+Debounce vs throttle
+
+Real scenarios (search)
+
+Task: Implement debounce manually.
