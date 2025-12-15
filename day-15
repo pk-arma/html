@@ -1,0 +1,33 @@
+Day 15 — DOM Manipulation
+
+Interview Questions:
+
+How does DOM work?
+:- The Document object modal(DOM) is programming interface for web document. it represect html or xml page as object tree. each node is refet to atribute,element and text. this structure allow javacript to dynamically access, modify and interact with content, structure  and style.
+
+On load it's create dom, enabled script to update the page without reloading. for example you change the text, add element and change the color.
+
+
+Event bubbling vs capturing?
+    
+
+innerHTML vs textContent?
+
+Cross Questions:
+
+Why is innerHTML unsafe?
+
+Which operations cause reflow?
+
+
+Day 15 — DOM Manipulation (1.5 hr)
+
+Topics:
+
+Selecting & modifying elements
+
+Events
+
+Bubbling & capturing
+
+Task: Create a dropdown menu.

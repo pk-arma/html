@@ -1,0 +1,41 @@
+Day 16 — Event Propagation + Delegation (1.5 hr)
+
+Topics:
+
+Event phases
+
+stopPropagation
+
+event Delegation for dynamic UIs
+
+Task: Add delegated handlers to a list.
+
+S:- Satuation
+T:- Task
+A:- Action 
+R:- Result
+
+Day 16 — Event Delegation
+
+Interview Questions:
+
+What is event delegation?
+:- let me tell about event delegation in javascript way to avoid multiple child event to create enstade we create on perent event to manage rest child event.
+for example we can in form.
+
+
+
+Advantages of delegation?
+:- to avoid to many event creation. create one central event.
+
+What is stopPropagation?
+:- stopPropagation stop event from bubbling up to the dom tree. when child element trigger as event
+
+Cross Questions:
+
+Why does delegation improve performance?
+by reducing the creating number of events.
+
+
+Can delegation work for blur/focus?
+
