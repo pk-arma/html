@@ -1,0 +1,55 @@
+1) 1 line (x is basecally), what is it.
+2) 2-3 point about that.
+3) example and use case in project.
+4) sammary in one line or conclude in line. 
+
+Day 13 — AJAX / Fetch / Axios
+
+Interview Questions:
+
+fetch vs axios?
+:- Both Fetch and Axios are used to make HTTP requests in JavaScript. Fetch is a built-in browser API, while Axios is a third-party library with more features. With Fetch, you need multiple .then() calls and manual JSON parsing, whereas Axios returns JSON directly and handles errors automatically. Axios also supports features like interceptors for centralized request handling, request cancellation, and better browser support. So, for simple requests Fetch is fine, but for larger applications or advanced features, Axios is generally preferred.
+
+What is CORS?
+:- cors stand for cross origin resource sharing. Mechanism that allow and restrict resource sharing on web page to be requested from  other domian.
+cors main use to check request origin domain and validate the domain.
+
+How to cancel a fetch call?
+
+Cross Questions:
+
+What is a preflight request?
+:- preflight request are request that check connection of origin is validate so that when get call then get the data then not to agian for domain check.
+A preflight request is an HTTP OPTIONS request sent by the browser before the actual request (like GET, POST, etc.) to check if the server allows the cross-origin request. It’s part of CORS (Cross-Origin Resource Sharing).
+
+What triggers CORS errors?
+
+
+Day 13 — AJAX + Fetch + Axios (1.5 hr)
+
+Topics:
+
+fetch basics
+
+JSON parsing
+
+Error handling
+
+CORS
+
+AbortController
+
+Task: Make API call + cancellation.
+
+Day 13 – Responsive Design
+
+Must-know topics:
+
+Media queries
+
+Viewport units (vh, vw)
+Interview questions:
+
+Mobile-first vs desktop-first?
+
+How to make text responsive?
