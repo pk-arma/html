@@ -1,0 +1,25 @@
+Day 14 — Async Project
+
+Interview Questions:
+
+What happens if API fails?
+
+How do you cache API calls?
+
+Cross Questions:
+
+How to retry API calls?
+
+How to debounce API requests?
+
+Day 14 — Build Async Mini-Project (2 hr)
+
+Topics:
+
+Fetch + async/await
+
+Error handling
+
+Loading states
+
+Task: Build “GitHub User Search”
