@@ -3,16 +3,20 @@ Day 14 — Async Project
 Interview Questions:
 
 What happens if API fails?
-
+:-
 How do you cache API calls?
+:- useing service worker which allow store data in large chunk.
 
 Cross Questions:
 
 How to retry API calls?
+:- we can write function for this or if we using any library like tanstack query then we prebuild function retry we have to pass number how many time we want to retry and we have also retrydaley to wait for a time before go for second call.
 
 How to debounce API requests?
+:- to debounce api requests we have to write function or we can simply use tanstack prebuild library to add debounce in api call.
 
 Day 14 — Build Async Mini-Project (2 hr)
+
 
 Topics:
 
