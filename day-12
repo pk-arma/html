@@ -1,0 +1,42 @@
+1) 1 line (x is basecally), what is it.
+2) 2-3 point about that.
+3) example and use case in project.
+4) sammary in one line or conclude in line. 
+
+
+Day 12 — Event Loop Advanced
+
+Interview Questions:
+
+What is the microtask queue?
+:- Event loop before added in queue, create two category microtask and macrotask. microtask consider as importent task which added first in the queue.
+we can microtask and macrotask is stage of event loop where set the proarities of task by broweser before add in event loop queue.
+
+What is MutationObserver?
+:- 
+
+How does queue order work?
+:- Event loop has two queue order, microtask and macrotask. browser api has to assign task to microtask or macrotask, where microtask get highest prioritiz and get excuted first, because of macrotask has low prioritiz it's excuted latter.
+
+Cross Questions:
+
+Why microtasks run before macrotasks?
+:- Microtasks are given higher priority so that promise resolutions and other critical async operations complete as soon as possible, before the browser processes rendering, timers, or user events.
+
+How do DOM callbacks enter the event loop?
+:- DOM callbacks enter the event loop through browser Web APIs, which queue them as tasks (macrotasks) when the corresponding DOM event occurs.
+
+
+Day 12 — Event Loop Advanced (1.5 hr)
+
+Topics:
+
+Microtask queue
+
+MutationObserver
+
+process.nextTick
+
+Queue order
+
+Task: Predict tricky event loop outputs.
